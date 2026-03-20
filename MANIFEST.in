@@ -1,0 +1,1 @@
+recursive-include robocasa *.json *.xml *.png *.obj

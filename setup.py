@@ -14,7 +14,7 @@ long_description = "".join(lines)
 setup(
     name="robocasa",
     packages=[package for package in find_packages() if package.startswith("robocasa")],
-    package_data={'robocasa': ['*.json', '*.xml']},
+    include_package_data=True,
     install_requires=[
         "numpy==2.2.5",
         "numba==0.61.2",
